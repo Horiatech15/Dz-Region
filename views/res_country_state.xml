@@ -10,12 +10,12 @@
         <field name="model">res.country.state</field>
         <field name="priority">10</field>
         <field name="arch" type="xml">
-                <tree string="State">
+                <list string="State">
                     <field name="code"/>
                     <field name="name"/>
                     <field name="country_id" options="{'no_create': True, 'no_open': True}"/>
                     <!-- <button name="action_read_state" type="object" icon="fa-external-link" class="oe_highlight"/> -->
-                </tree>
+                </list>
         </field>
     </record> 
 
